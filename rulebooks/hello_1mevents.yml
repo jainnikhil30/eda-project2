@@ -4,7 +4,7 @@
   sources:
     - name: range
       ansible.eda.range:
-        limit: 150000
+        limit: 200000
   rules:
     - name: r1
       condition: event.i is defined
