@@ -7,6 +7,8 @@
         create_index: i
         event_delay: .0001
         loop_count: 200000
+        payload:
+          - name: fred
   rules:
     - name: r1
       condition: event.i is defined
