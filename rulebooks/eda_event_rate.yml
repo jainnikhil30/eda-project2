@@ -5,8 +5,9 @@
     - name: generic
       ansible.eda.generic:
         create_index: i
-        event_delay: .0000000000001
+        #event_delay: .0000000000001
         loop_count: 200000
+        loop_delay: .00001
         payload:
           - name: fred
   rules:
