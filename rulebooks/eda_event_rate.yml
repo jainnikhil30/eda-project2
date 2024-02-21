@@ -7,7 +7,7 @@
         create_index: i
         #event_delay: .0000000000001
         loop_count: 200000
-        loop_delay: .000001
+        loop_delay: .0000001
         payload:
           - name: fred
   rules:
