@@ -9,7 +9,7 @@
       condition: event.i < 501
       action:
         run_job_template:
-          name: Chatty1
+          name: Chatty
           organization: Default
           job_args:
             extra_vars:
