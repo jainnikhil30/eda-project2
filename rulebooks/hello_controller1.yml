@@ -3,7 +3,7 @@
   hosts: all
   sources:
     - ansible.eda.range:
-        limit: 1
+        limit: 5
   rules:
     - name: "Run job template"
       condition: event.i < 200
