@@ -8,6 +8,6 @@
         delay: 10
   rules:
     - name: check if the site is down
-      condition: event.url_check.status == “down”
+      condition: event.url_check.status == "down"
       action:
         none:
