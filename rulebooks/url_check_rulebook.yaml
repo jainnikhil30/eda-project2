@@ -4,10 +4,11 @@
   sources:
     - ansible.eda.url_check:
         urls:
-          - http://webserver_url:80/
-        delay: 10
+          - https://docs.ansible.com/
+        delay: 3
+        verify_ssl: false
   rules:
-    - name: check if the site is down
-      condition: event.url_check.status == "down"
+    - name: check if the site is up
+      condition: event.url_check.status == "up"
       action:
         none:
