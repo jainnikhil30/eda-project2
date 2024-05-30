@@ -11,7 +11,7 @@
     - name: check if the site is up
       condition: event.url_check.status == "up"
       action:
-        #debug:
-          #msg:
-            #- "Message 1 {{ event }}"
-        none:
+        debug:
+          msg:
+            - "Message 1 {{ event }}"
+        #none:
