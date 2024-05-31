@@ -14,4 +14,4 @@
         run_job_template:
           name: Demo Job Template
           organization: Default
-  
+  execution_strategy: "parallel"
