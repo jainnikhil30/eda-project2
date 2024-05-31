@@ -11,7 +11,6 @@
     - name: check if the site is up
       condition: event.url_check.status == "up"
       action:
-        action:
         run_job_template:
           name: Demo Job Template
           organization: Default
